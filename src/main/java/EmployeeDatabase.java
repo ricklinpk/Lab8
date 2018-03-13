@@ -15,7 +15,7 @@ public class EmployeeDatabase {
     /**
      * List of employees.
      */
-    public List<Employee> employees;
+    private List<Employee> employees;
 
     /**
      * Constructor which initializes the employees list.
@@ -30,7 +30,7 @@ public class EmployeeDatabase {
     /**
      * Returns the manager for the given employee.
      *
-     * @param employee
+     * @param employee employee
      * @return
      */
     Employee findManager(final Employee employee) {
@@ -56,6 +56,7 @@ public class EmployeeDatabase {
         /*
          * Implement this function
          */
+
     }
 
     /**
